@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    background:lightblue;
+    padding: 10px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.first {
+    flex-direction: row;
+}
+
+.second {
+    flex-direction: column;
+    height: 400px;
+}
+
+.third {
+    justify-content: space-around;
+}
+
+.fourth{
+    display: flex;
+    height: 250px;
+    align-items: center;
+}
+
+.fifth{
+    display: flex;
+    height: 350px;
+    flex-wrap: wrap;
+    align-content: space-around;
+    overflow: scroll;  
+}
+
+nav{
+    height: 50px;
+    border: 2px solid black;
+    position: relative;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    text-transform: capitalize;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+}
